@@ -1,0 +1,59 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(179, 178, 178);
+    height: 15vh;
+    width: 15vw;
+}
+
+.inputs {
+    display: flex;
+    gap: 5px;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.operands {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.firstOperand {
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondOperand {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    font-size: 16px;
+    width: 25px;
+    height: 25px;
+}
+
+.equal {
+    width: 100%;
+}
+
+.clear {
+    width: 100%;
+}
