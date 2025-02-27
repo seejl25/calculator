@@ -13,25 +13,31 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(179, 178, 178);
-    height: 15vh;
-    width: 15vw;
+    min-height: 25vh;
+    min-width: 20vw;
 }
 
 .inputs {
     display: flex;
     gap: 5px;
+    flex-wrap: wrap;
+    min-height: 20vh;
+    min-width: 15vw;
+    justify-content: space-between;
 }
 
 .numbers {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding: 8px 0 8px 8px;
 }
 
 .operands {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding: 8px 8px 8px 0;
 }
 
 .firstOperand {
@@ -45,15 +51,21 @@ body {
 }
 
 button {
-    font-size: 16px;
+    font-size: 18px;
     width: 25px;
     height: 25px;
+    padding: 0;
 }
 
-.equal {
-    width: 100%;
+.display {
+    min-height: 8vh;
+    min-width: 15vw;
+    background-color: rgb(72, 78, 72);
+    margin-top: 12px;
+    color: white;
 }
 
-.clear {
-    width: 100%;
+p {
+    margin: 0;
+    text-align: end;
 }
