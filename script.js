@@ -131,7 +131,7 @@ window.onkeydown = function(event) {
             output.textContent = display.textContent;
         }
     }
-    else if (event.keyCode === 107 || event.keyCode === 109 || event.keyCode === 106 || event.keyCode === 111) {
+    else if (event.keyCode === 107 || event.keyCode === 109 || event.keyCode === 106 || event.keyCode === 111 || event.keyCode === 191 || event.keyCode === 189) {
         const operand = operator.find(op => display.textContent.includes(op));
         if (operand && output.textContent === "") {
             const idx = display.textContent.indexOf(operand);
