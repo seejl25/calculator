@@ -1,5 +1,5 @@
 # calculator
-Calcualtor project from TheOdinProject
+Calculator project from TheOdinProject
 
 Project Requirements:
 1. display can only output 2 numbers and 1 operator each time (i.e <firstNum> <operator> <secondNum>)
@@ -11,4 +11,4 @@ Project Requirements:
 7. "AC" button allows user to reset display and "Del" button allows user to undo their input
 8. Keyboard events for the calculator
 
-**used flexbox instead of grid for this calculator
+**used flexbox instead of grid for this project 
