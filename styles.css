@@ -62,6 +62,7 @@ button {
     border-radius: 30px;
     padding: 2px;
     margin: 2px;
+    -webkit-appearance: none;
 }
 
 .display {
